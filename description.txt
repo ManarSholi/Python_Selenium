@@ -1,0 +1,34 @@
+Lets say you get hired as a test engineer at a web development company.
+Every day you have to test various functions of the website. Doing this
+requires a lot of manual repetitive work. You have to lunch your browser,
+direct it to the address of your website, click on a few links here and
+there perhaps fill out a form, and repeat all these with different values
+severals times a day.
+
+This si several time consuming and it doesn't scale. So that's where
+selenium comes into the picture.
+
+With selenium we can automate our browser, so we can write a bunch of
+scripts to test various functions on a website.
+
+Simple example:
+
+Let's say we want to test the login functionality of the GitHub.com.
+So,
+1. we have to launch our browser
+2. head over to GitHub.com
+3. click on the sign link
+4. fill out the form.
+5. login
+6. click on your avatar
+7. check if your name appears on the menu, if not, that means there's 
+something wrong with the login functionality.
+
+Using Selenium:
+1. pipenv install selenium
+2. We need a driver, The driver is a piece of software to automate a
+specific browser, for all these popular browsers like chrome, firefox
+and so on, we have a web driver that we need to manually download. So,
+1. head over to pypi.org.
+2. search for selenium.
+3. on the Drivers section, choose a browser, and download it.
